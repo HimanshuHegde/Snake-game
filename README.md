@@ -1,0 +1,1 @@
+🐍 Classic Snake Game — A simple and fun Snake game built using HTML, CSS, and JavaScript. Control the snake, eat food, and grow longer while avoiding collisions! Responsive design, smooth controls, and nostalgic gameplay — all in a lightweight, browser-based experience. Play it here: himanshuhegde.github.io/Snake-game
