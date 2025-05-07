@@ -1,0 +1,53 @@
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    background:black
+  }
+  .holder{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background:black;
+    padding:1rem
+  }
+  #score{
+    position:absolute;
+    padding:1rem;
+    background:white;
+    transform:translatey(-105%)
+  }
+  .box {
+    background: yellow !important;
+    border-radius:100%
+  }
+  
+  .gameOver{
+    display:flex !important;
+    flex-direction:column;
+    position: fixed;
+    width:100vw;
+    height:100vh;
+    align-items:center;
+    justify-content:center;
+    z-index:50;
+    color:red;
+  }
+  button{
+    all:unset;
+    cursor:pointer;
+  }
+  #gameOverFalse{
+    display:none
+  }
+  #parent{
+    hight:fit-content;
+    width:fit-content;
+    border:2px solid white
+  }
+  .over{
+    background:white !important;
+  }
